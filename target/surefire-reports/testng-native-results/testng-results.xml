@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="21700" started-at="2021-06-03T08:47:23Z" finished-at="2021-06-03T08:47:44Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@90f6bfd]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="21700" started-at="2021-06-03T08:47:23Z" finished-at="2021-06-03T08:47:44Z">
+      <class name="cucumberOptions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@90f6bfd]" name="setUpClass" is-config="true" duration-ms="187" started-at="2021-06-03T09:47:23Z" finished-at="2021-06-03T09:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@90f6bfd]" name="feature" duration-ms="21450" started-at="2021-06-03T09:47:23Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-06-03T09:47:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Log In Error Message]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@90f6bfd]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2021-06-03T09:47:44Z" finished-at="2021-06-03T09:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
